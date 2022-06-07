@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ff9c62;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.platform{
+    width: 1200px;
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+    margin-top: 50px;
+    outline: none;
+}
+.title-name{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+}
+.abt{
+    font-size: 22px;
+}
+
+.abt ul li{
+    display: inline-block;
+    padding-left:  15px;
+}
+.ipt-nav input{
+    
+    width: 250px;
+    padding-left:  25px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 48px;
+}
+
+
+main{
+    margin-top: 50px;
+}
+
+.col1{
+
+}
+.col2{
+    border-radius: 10px;
+}
+
+.col1 .title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.col1 .text{
+    margin-top: 15px;
+    color: gray;
+}
+.col1 .btn{
+    display: flex;
+    align-items: center;
+}
+.btn-class{
+    margin-top: 10px;
+}
+.col1 .btn-class button{
+    background-color: purple;
+    width: 150px;
+    height: 50px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.col1 .btn-class:hover{
+    transform: scale(1.1);
+}
+.col1 .btn-port{
+    margin-top: 10px;
+}
+.col1 .btn-port button{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col2{
+    width: 60%;
+    height: 285px;
+}
+.col2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.social-media{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media button{
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 19px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+.social-media button:hover,.social-media i:hover{
+    transform: scale(1.1);
+}
+
+.social-media i{
+    font-size: 38px;
+    color: skyblue;
+    cursor: pointer;
+}
+
+
+.yellow-platform{
+    background-color:#ffd772;;
+}
+.yellow-platform .skill{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 60px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.yellow-platform .detail{
+    font-size: 37px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
